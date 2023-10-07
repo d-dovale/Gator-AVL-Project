@@ -1,4 +1,6 @@
 #include <iostream>
+#include "AVL.h"
+#include "Parser.h"
 
 /* Note: 
 	1. You will have to comment main() when unit testing your code because catch uses its own main().
@@ -6,6 +8,9 @@
 */
 
 int main(){
+    AVLTree tree;
+    handleUserCommands(tree);
+
 	return 0;
 }
 
